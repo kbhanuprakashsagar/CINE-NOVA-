@@ -1,0 +1,6 @@
+{
+  "name": "Cine Nova",
+  "description": "A curated streaming sanctuary for regional masterworks and South Asian indie cinema.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

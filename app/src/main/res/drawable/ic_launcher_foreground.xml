@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Dark Emblem Disc Backdrop -->
+    <path
+        android:fillColor="#15151B"
+        android:strokeColor="#2A2A36"
+        android:strokeWidth="1.2"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+
+    <!-- Crimson Orbital Arc (Orbit Swirl) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E61E2A"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M34,60 C32,46 42,34 56,33 C67,32 75,37 77,41" />
+
+    <!-- Four-Pointed Radiant Gold Cinema Star -->
+    <path
+        android:pathData="M54,32 C54,46 56,52 69,54 C56,56 54,62 54,76 C54,62 52,56 39,54 C52,52 54,46 54,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39"
+                android:startY="32"
+                android:endX="69"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#FFD666" android:offset="0.0" />
+                <item android:color="#FF9E1B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Luminous Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" />
+</vector>
